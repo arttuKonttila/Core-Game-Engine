@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{22b60320-d61d-4605-84dd-92f09883b3bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\include">
+      <UniqueIdentifier>{0ebb0351-0179-4028-8598-f7f1bf262046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{537879f9-8d83-4dcb-b230-1815ce674117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\src">
+      <UniqueIdentifier>{d9ebe3b3-c3b2-4b88-a195-03f5b2a6c626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\IApplication.cpp">
+      <Filter>Source Files\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\Timer.cpp">
+      <Filter>Source Files\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\IRenderer.cpp">
+      <Filter>Source Files\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\OpenGLRenderer.cpp">
+      <Filter>Source Files\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\Geometry.cpp">
+      <Filter>Source Files\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\Material.cpp">
+      <Filter>Source Files\core\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\core\include\IApplication.h">
+      <Filter>Header Files\core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\Timer.h">
+      <Filter>Header Files\core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\IRenderer.h">
+      <Filter>Header Files\core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\OpenGLRenderer.h">
+      <Filter>Header Files\core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="TheApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\Geometry.h">
+      <Filter>Header Files\core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\Material.h">
+      <Filter>Header Files\core\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="phongshader.vert" />
+    <None Include="phongshader.frag" />
+  </ItemGroup>
+</Project>
