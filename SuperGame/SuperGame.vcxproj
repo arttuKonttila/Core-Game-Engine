@@ -136,9 +136,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\core\src\Geometry.cpp" />
+    <ClCompile Include="..\core\src\GeometryNode.cpp" />
     <ClCompile Include="..\core\src\IApplication.cpp" />
     <ClCompile Include="..\core\src\IRenderer.cpp" />
     <ClCompile Include="..\core\src\Material.cpp" />
+    <ClCompile Include="..\core\src\Node.cpp" />
     <ClCompile Include="..\core\src\OpenGLRenderer.cpp" />
     <ClCompile Include="..\core\src\Timer.cpp" />
     <ClCompile Include="main.cpp" />
@@ -146,9 +148,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\core\include\Geometry.h" />
+    <ClInclude Include="..\core\include\GeometryNode.h" />
     <ClInclude Include="..\core\include\IApplication.h" />
     <ClInclude Include="..\core\include\IRenderer.h" />
     <ClInclude Include="..\core\include\Material.h" />
+    <ClInclude Include="..\core\include\Node.h" />
     <ClInclude Include="..\core\include\OpenGLRenderer.h" />
     <ClInclude Include="..\core\include\Timer.h" />
     <ClInclude Include="TheApp.h" />

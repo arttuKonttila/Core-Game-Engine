@@ -51,6 +51,12 @@
     <ClCompile Include="..\core\src\Material.cpp">
       <Filter>Source Files\core\src</Filter>
     </ClCompile>
+    <ClCompile Include="..\core\src\Node.cpp">
+      <Filter>Source Files\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\GeometryNode.cpp">
+      <Filter>Source Files\core\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\core\include\IApplication.h">
@@ -72,6 +78,12 @@
       <Filter>Header Files\core\include</Filter>
     </ClInclude>
     <ClInclude Include="..\core\include\Material.h">
+      <Filter>Header Files\core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\Node.h">
+      <Filter>Header Files\core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\GeometryNode.h">
       <Filter>Header Files\core\include</Filter>
     </ClInclude>
   </ItemGroup>
